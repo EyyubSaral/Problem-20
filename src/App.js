@@ -63,7 +63,7 @@ export default function Todos() {
       <h2 className="bg-emerald-300 rounded p-2 hover:bg-emerald-400 m-2">
         Tamamlanan: {completed}
       </h2>
-      <div className="space-y-5 sm:space-y-3 sm:w-full">
+      <div className="space-y-5 sm:space-y-3">
         {todoList
           ? todoList.map((list) => {
               return (
